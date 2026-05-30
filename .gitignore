@@ -18,4 +18,10 @@ bin-release/
 # information for Eclipse / Flash VITE_SUPABASE_URL=https://your-project-ref.supabase.co
 VITE_SUPABASE_ANON_KEY=your-real-anon-key
 VITE_USE_SUPABASE=true
+git init
+git add .
+git commit -m "Initial commit: Thon Market"
+git branch -M main
+git remote add origin https://github.com/yourname/thon-market-vite.git
+git push -u origin main
 
